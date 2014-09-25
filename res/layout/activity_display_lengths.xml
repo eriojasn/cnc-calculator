@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/display_lengths_comment"
+        android:background="#FFFF00"
+        android:textSize="30sp" />
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center">
+	    <ImageView
+	        android:id="@+id/selected_image"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="@string/length_one_tag" />
+		<TextView 
+		    android:id="@+id/length_one"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="@string/length_two_tag" />
+		<TextView 
+		    android:id="@+id/length_two"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="@string/length_three_tag" />
+		<TextView 
+		    android:id="@+id/length_three"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="@string/length_four_tag" />
+		<TextView 
+		    android:id="@+id/length_four"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="" />
+		<TextView 
+		    android:id="@+id/blank"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="Punto 1 X:" />
+		<TextView 
+		    android:id="@+id/first_point_x"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="Punto 1 Y:" />
+		<TextView 
+		    android:id="@+id/first_point_y"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+            <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="" />
+		<TextView 
+		    android:id="@+id/blank"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+		 </LinearLayout>
+		
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="Punto 2 X:" />
+		<TextView 
+		    android:id="@+id/second_point_x"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		<TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" 
+	        android:text="Punto 2 Y:" />
+		<TextView 
+		    android:id="@+id/second_point_y"
+		    android:textColor="#FF0000"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+	    <Button
+	        android:layout_width="0dp"
+	        android:layout_weight="6"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button2_text"
+	        android:onClick="restart" />
+		<Button
+		    android:layout_width="0dp"
+	        android:layout_weight="4"
+	        android:layout_height="wrap_content"
+	        android:text="Acerca de"
+	        android:onClick="showTitle" />
+	 </LinearLayout>
+</LinearLayout>
